@@ -1,0 +1,93 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: "Montserrat";
+        background-color: rgb(60, 60, 60);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 40px ;
+    }
+
+    img{
+        width: 150px;
+        border-radius: 50%;
+        padding: 8px 8px;
+        margin-bottom: 8px;
+        border: 2px solid none;
+        filter: drop-shadow(10px 10px 10px rgb(26, 23, 23));
+    }
+
+    .pic{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        background-color: #787878;
+        margin: 0 auto;
+        width: 20rem;
+        padding: 10px 10px;
+        border-left: 3px dotted whitesmoke;
+        border-right: 3px dotted black;
+        border-radius: 8%;
+    }
+
+    footer p{
+        margin-top: 14px;
+        margin-bottom: 4px;
+        background-color: darkgrey;
+    }
+
+    .social-icons{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        block-size: 38px;
+        margin-top: 10px;
+    }
+
+ .twitter{
+        color: #1da1f2;
+        padding: 10px 10px;
+    }
+
+    .instagram{
+        color: #fd1d4d;
+        padding: 10px 10px;
+    }
+
+    .facebook{
+        color: #3b5998;
+        padding: 10px 10px;
+    }
+
+    .linkedin{
+        color: #3b5998;
+        padding: 10px 10px;
+    }
+
+   
